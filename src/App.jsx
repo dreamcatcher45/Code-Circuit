@@ -8,7 +8,7 @@ const App = () => {
 
  useEffect(() => {
     const fetchData = async () => {
-      const result = await axios.get('src/assets/data.csv');
+      const result = await axios.get('https://github.com/dreamcatcher45/Code-Circuit/blob/main/src/assets/data.csv');
       const rows = result.data.split('\n');
       const data = rows.map(row => row.split(','));
       setData(data);
