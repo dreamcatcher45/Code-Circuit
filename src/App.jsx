@@ -7,7 +7,7 @@ const App = () => {
 
  useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('src/assets/data.csv');
+      const response = await fetch('https://github.com/dreamcatcher45/Code-Circuit/tree/main/src/assets');
       const text = await response.text();
       const rows = text.split('\n');
       const data = rows.map(row => row.split(','));
