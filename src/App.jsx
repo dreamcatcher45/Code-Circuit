@@ -7,7 +7,7 @@ const App = () => {
 
  useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('https://github.com/dreamcatcher45/Code-Circuit/tree/main/src/assets');
+      const response = await fetch('/Code-Circuit/data.csv');
       const text = await response.text();
       const rows = text.split('\n');
       const data = rows.map(row => row.split(','));
@@ -54,7 +54,7 @@ const App = () => {
       </div>
       <footer>
  <div class="footer-content">
-    <a href="https://github.com/yourusername" target="_blank">
+    <a href="https://github.com/dreamcatcher45/Code-Circuit" target="_blank">
       <p>Contribute</p>
     </a>
  </div>

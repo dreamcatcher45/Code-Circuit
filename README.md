@@ -30,7 +30,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Deployment
 
-This application is hosted on GitHub Pages. You can access it at [Here](https://dreamcatcher45.github.io/code-circuit/).
+This application is hosted on GitHub Pages. You can access it at [Here](https://dreamcatcher45.github.io/Code-Circuit/).
 
 ## Disclaimer
 
